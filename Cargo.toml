@@ -1,0 +1,12 @@
+[package]
+name = "rust-solana"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+
+[dependencies]
+borsh = "1.8.1"
+solana-program = "4.1.0"
